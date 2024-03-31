@@ -1,0 +1,25 @@
+.textarea {
+  border-radius: 4px;
+  min-width: 212px;
+  min-height: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  padding: 8px;
+  border-color: var(--inactive);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  outline: none;
+}
+
+.textarea:focus {
+  border-color: var(--black);
+}
+
+.invalid:focus {
+  border-color: var(--error);
+}
+
+.invalid-inactive {
+  border-color: var(--error-inactive);
+}
